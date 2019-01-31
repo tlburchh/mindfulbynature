@@ -12,12 +12,8 @@ class Nav extends React.Component {
 
     return (
       <React.Fragment>
-      <div className="navbar">
-      <div className="dropdown">
-        <button className="dropbtn">Dropdown 
-          <i className="fa fa-caret-down"></i>
-        </button>
-        <div className="dropdown-content">
+      <div className="navbar"> 
+        
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/reiki">Reiki</Link>
@@ -25,8 +21,7 @@ class Nav extends React.Component {
          
           {/* <a href="#">Link 2</a>
           <a href="#">Link 3</a> */}
-        </div>
-      </div> 
+
     </div>
     </React.Fragment>
     );
