@@ -4,6 +4,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Reiki from './pages/reiki';
 import Home from './pages/home'
+import Ethics from './pages/reikiEthics'
 import Nav from './components/Nav'
 
 class App extends Component {
@@ -29,7 +30,8 @@ class App extends Component {
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/reiki" component={Reiki} />
-                <Route exact path="/Contact" component={Contact} />
+                <Route exact path="/ethics" component={Ethics} />
+                <Route exact path="/contact" component={Contact} />
               </Switch>
           </div>
         </Router>  

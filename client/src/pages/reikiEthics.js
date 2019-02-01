@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
+
 const styles = theme => ({
   root: {
     flexGrow: 1,
@@ -18,7 +19,7 @@ const styles = theme => ({
   },
 });
 
-function Contact(props) {
+function Reiki(props) {
   const { classes } = props;
 
   return (
@@ -27,17 +28,20 @@ function Contact(props) {
         <Grid item xs={12}>
           <Paper className={classes.paper}>image</Paper>
         </Grid>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>contact info</Paper>
+        <Grid item xs={0} sm={3}>
+          <Paper className={classes.paper}>about us</Paper>
         </Grid>
-
+        <Grid item xs={12} sm={9}>
+          <Paper className={classes.paper}>Code of Ethics</Paper>
+        </Grid>
+        
       </Grid>
     </div>
   );
 }
 
-Contact.propTypes = {
+Reiki.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Contact);
+export default withStyles(styles)(Reiki);
