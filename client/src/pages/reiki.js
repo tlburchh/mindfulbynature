@@ -14,8 +14,8 @@ const styles = theme => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
     boxShadow: 'none',
-    borderStyle: 'solid',
-    borderWidth: '2px',
+    // borderStyle: 'solid',
+    // borderWidth: '2px',
   },
 });
 
@@ -32,10 +32,24 @@ function Reiki(props) {
           <Paper className={classes.paper}>about us</Paper>
         </Grid>
         <Grid item xs={12} sm={9}>
-          <Paper className={classes.paper}>paragraphs about reiki</Paper>
+          <Paper className={classes.paper} style={{padding:'0px 200px'}}>
+          <b>“REIKI” (RAY-KEY) IS JAPANESE FOR ‘UNIVERSAL LIFE ENERGY, AND IS ALSO A WORD USED TO DESCRIBE A SYSTEM OF NATURAL HEALING, THIS TRADITION WAS FOUNDED BY MIKAO USUI IN THE EARLY 20TH CENTURY AND EVOLVED AS A RESULT OF HIS RESEARCH, EXPERIENCE AND DEDICATION.</b>
+          <br/><br/><br/>
+          <p>We live in a world of energy that nourishes and maintains all living things. When this energy flows uninterrupted there is balance and harmony within and around us, and we experience a sense of well being.
+          <br/><br/>
+          There are many variations of Reiki, but in essence Reiki treatments can help the body emotionally or spiritually. It is a tradition that is open to any belief system.
+          <br/><br/>
+          Reiki treatment is a process that anyone can enjoy in the normal course of their life. Reiki can be used alongside other conventional or complementary treatment and often helps to provide emotional support during recovery.
+          <br/><br/>
+          The practice is taught by Reiki masters / teachers who have trained in the tradition passed on in person from master to student.
+          <br/><br/>
+          https://www.reikiassociation.net</p>
+          
+          </Paper>
         </Grid>
         <Grid item xs={12}>
-        <Link to='/Ethics'>Reiki Code of Ethics</Link>
+        <Paper className={classes.paper}><Link to='/Ethics'><h1><i>Reiki Code of Ethics</i></h1></Link></Paper>
+        
         </Grid>
       </Grid>
     </div>
