@@ -25,7 +25,8 @@
       <div className={classes.root}>
         <Grid container spacing={24}>
           <Grid item xs={12}>
-            <Paper className={classes.paper}>xs=12 sm=6</Paper>
+            {/* <Paper className={classes.paper}>xs=12 sm=6</Paper> */}
+ <img src="https://static1.squarespace.com/static/5ab2db1e85ede1cb9c2aaf44/t/5ab2dd1e352f534840ed807a/1521671460032/IMG_20170929_164510624.jpg?format=2500w"></img>
           </Grid>
           <Grid item xs={12}>
             <Paper className={classes.paper}>xs=12 sm=6</Paper>

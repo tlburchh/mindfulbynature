@@ -13,20 +13,16 @@ class Nav extends React.Component {
     return (
       <React.Fragment>
       <div className="navbar">
-      
-
-      <img src="http://via.placeholder.com/150"/>
-
-
+        <div className="navbarContent">
     
-          <Link to="/">Home</Link>
+          <Link to="/"><img src="http://via.placeholder.com/150"/></Link>
           <Link to="/about">About</Link>
           <Link to="/reiki">Reiki</Link>
           <Link to="/contact">Contact</Link>
          
           {/* <a href="#">Link 2</a>
           <a href="#">Link 3</a> */}
-
+      </div>
     </div>
     </React.Fragment>
     );
