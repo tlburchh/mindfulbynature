@@ -12,8 +12,13 @@ class Nav extends React.Component {
 
     return (
       <React.Fragment>
-      <div className="navbar"> 
-        
+      <div className="navbar">
+      
+
+      <img src="http://via.placeholder.com/150"/>
+
+
+    
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/reiki">Reiki</Link>
