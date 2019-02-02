@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import './about.css';
 
 const styles = theme => ({
   root: {
@@ -25,7 +26,9 @@ function About(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>image</Paper>
+        <img className="topImage" src={require ("../../images/Lake2.jpg")} alt="" >
+             
+             </img>
         </Grid>
         <Grid item xs={0} sm={3}>
           <Paper className={classes.paper}>

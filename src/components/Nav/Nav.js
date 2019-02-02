@@ -15,7 +15,7 @@ class Nav extends React.Component {
       <div className="navbar">
         <div className="navbarContent">
     
-          <Link to="/"><img src="http://via.placeholder.com/150" alt="Mindful by Nature" /></Link>
+          <Link to="/"><img src={require("../../images/mindfulbynature-black.png")} alt="Mindful by Nature" /></Link>
           <Link to="/about">About</Link>
           <Link to="/reiki">Reiki</Link>
           <Link to="/contact">Contact</Link>

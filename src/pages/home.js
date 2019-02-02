@@ -19,6 +19,7 @@
     },
     intro: {
       textAlign: 'center',
+      
     },
     img: {
       height: '200px'
@@ -32,7 +33,7 @@
       <div className={classes.root}>
         <Grid container spacing={24}>
           <Grid item xs={12} >
-            <img src="https://static1.squarespace.com/static/5ab2db1e85ede1cb9c2aaf44/t/5ab2dd1e352f534840ed807a/1521671460032/IMG_20170929_164510624.jpg?format=1500w" alt="" >
+            <img src={require ("../images/SunOnLake.jpg")} alt="" >
              
             </img>
              

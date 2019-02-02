@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { Link } from 'react-router-dom';
+import './reiki.css';
 
 const styles = theme => ({
   root: {
@@ -26,13 +27,15 @@ function Reiki(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>image</Paper>
+        <img className="topImage" src={require ("../../images/mountain.jpg")} alt="" >
+             
+             </img>
         </Grid>
         <Grid item xs={0} sm={3}>
           <Paper className={classes.paper}>about us</Paper>
         </Grid>
         <Grid item xs={12} sm={9}>
-          <Paper className={classes.paper} style={{padding:'0px 200px'}}>
+          <Paper className={classes.paper} id= "description">
           <b>“REIKI” (RAY-KEY) IS JAPANESE FOR ‘UNIVERSAL LIFE ENERGY, AND IS ALSO A WORD USED TO DESCRIBE A SYSTEM OF NATURAL HEALING, THIS TRADITION WAS FOUNDED BY MIKAO USUI IN THE EARLY 20TH CENTURY AND EVOLVED AS A RESULT OF HIS RESEARCH, EXPERIENCE AND DEDICATION.</b>
           <br/><br/><br/>
           <p>We live in a world of energy that nourishes and maintains all living things. When this energy flows uninterrupted there is balance and harmony within and around us, and we experience a sense of well being.

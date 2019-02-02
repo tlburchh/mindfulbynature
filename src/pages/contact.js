@@ -25,7 +25,9 @@ function Contact(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>image</Paper>
+        <img src={require ("../images/redSky.jpg")} alt="" >
+             
+             </img>
         </Grid>
         <Grid item xs={12}>
           <Paper className={classes.paper}>contact info</Paper>
