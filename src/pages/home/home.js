@@ -4,7 +4,7 @@
   import Paper from '@material-ui/core/Paper';
   import Grid from '@material-ui/core/Grid';
 // import { Typography } from '@material-ui/core';
-  
+  import './home.css'
   const styles = theme => ({
     root: {
       flexGrow: 1,
@@ -33,7 +33,7 @@
       <div className={classes.root}>
         <Grid container spacing={24}>
           <Grid item xs={12} >
-            <img src={require ("../images/SunOnLake.jpg")} alt="" >
+            <img src={require ("../../images/SunOnLake.jpg")} alt="" >
              
             </img>
              

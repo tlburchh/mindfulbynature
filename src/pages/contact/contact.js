@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import './contact.css';
 
 const styles = theme => ({
   root: {
@@ -25,7 +26,7 @@ function Contact(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-        <img src={require ("../images/redSky.jpg")} alt="" >
+        <img className="topImage" src={require ("../../images/redSky.jpg")} alt="" >
              
              </img>
         </Grid>

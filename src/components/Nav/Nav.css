@@ -16,16 +16,17 @@ body {
 }
 
 .navbar a {
-  font-size: 20px;
+  font-size: 22px;
   color: black;
   text-align: center;
   padding: 30px 50px;
+  font-style: italic
 
 }
 
 .navbar img {
-  padding: 0px 60px 0px 0px;
-  height: 100px;
+  padding: 30px 60px 0px 0px;
+  height: 150px;
   
 }
 

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from './pages/about/about';
-import Contact from './pages/contact';
+import Contact from './pages/contact/contact';
 import Reiki from './pages/reiki/reiki';
-import Home from './pages/home'
-import Ethics from './pages/reikiEthics'
+import Home from './pages/home/home'
+import Ethics from './pages/reikiEthics/reikiEthics'
 import Nav from './components/Nav'
 
 class App extends Component {
