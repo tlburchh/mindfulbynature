@@ -26,7 +26,9 @@ function Reiki(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>image</Paper>
+          <div className="topImage">
+            <img  src={require ("../../images/sky.jpg")} alt="" ></img>  
+          </div>  
         </Grid>
         <Grid item xs={0} sm={3}>
           <Paper className={classes.paper}>Code of Ethics</Paper>

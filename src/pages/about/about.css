@@ -1,5 +1,13 @@
 .topImage {
   width: 100%;
   min-width: 800px;
- 
+  height: 200px;
+  overflow: hidden;
+}
+
+.topImage img {
+  position: relative;
+  bottom: 60%;
+  width: 100%;
+
 }

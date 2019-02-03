@@ -33,10 +33,12 @@
       <div className={classes.root}>
         <Grid container spacing={24}>
           <Grid item xs={12} >
-            <img src={require ("../../images/SunOnLake.jpg")} alt="" >
-             
+            <img src={require ("../../images/SunOnLake.jpg")} alt="" >    
             </img>
-             
+            <div className="title">
+            <h1>Mindfulness</h1>
+            <h2>It Is Our Nature</h2>
+             </div>
           </Grid>
           <Grid item xs={12} className={classes.intro}>
              <h2>We strive to reconnect people with nature and with themselves</h2><br></br>

@@ -27,14 +27,17 @@ function Reiki(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-        <img className="topImage" src={require ("../../images/mountain.jpg")} alt="" >
-             
-             </img>
+          <div className="topImage">
+           <img  src={require ("../../images/mountain.jpg")} alt="" ></img>
+          </div>
         </Grid>
         <Grid item xs={0} sm={3}>
-          <Paper className={classes.paper}>about us</Paper>
+        <Paper className={classes.paper}>
+          <h3>Reiki</h3>
+          </Paper>
         </Grid>
         <Grid item xs={12} sm={9}>
+        <img className="midImage" src={require ("../../images/waterfall.jpg")} alt="" ></img>
           <Paper className={classes.paper} id= "description">
           <b>“REIKI” (RAY-KEY) IS JAPANESE FOR ‘UNIVERSAL LIFE ENERGY, AND IS ALSO A WORD USED TO DESCRIBE A SYSTEM OF NATURAL HEALING, THIS TRADITION WAS FOUNDED BY MIKAO USUI IN THE EARLY 20TH CENTURY AND EVOLVED AS A RESULT OF HIS RESEARCH, EXPERIENCE AND DEDICATION.</b>
           <br/><br/><br/>
@@ -46,7 +49,7 @@ function Reiki(props) {
           <br/><br/>
           The practice is taught by Reiki masters / teachers who have trained in the tradition passed on in person from master to student.
           <br/><br/>
-          https://www.reikiassociation.net</p>
+          <a href="https://www.reikiassociation.net">The Reiki Association</a></p>
           
           </Paper>
         </Grid>

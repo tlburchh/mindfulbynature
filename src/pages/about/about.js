@@ -26,9 +26,9 @@ function About(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-        <img className="topImage" src={require ("../../images/Lake2.jpg")} alt="" >
-             
-             </img>
+          <div className="topImage">
+            <img  src={require ("../../images/Lake2.jpg")} alt="" ></img>
+          </div>
         </Grid>
         <Grid item xs={0} sm={3}>
           <Paper className={classes.paper}>

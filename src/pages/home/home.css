@@ -1,0 +1,9 @@
+.title {
+  position: relative;
+  top:-65%;
+  text-align: center;
+
+}
+.title h1{
+  font-size: 60px;
+}
