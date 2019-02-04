@@ -48,7 +48,11 @@
             <Paper className={classes.paper}>xs=6 sm=3</Paper>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Paper className={classes.paper}>xs=6 sm=3</Paper>
+            <div >
+            <img className="logo" src={require ("../../images/MbNLogoLake.jpg")} alt="Mindful by Nature logo" >    
+            </img>
+            </div>
+
           </Grid>
           <Grid item xs={12} sm={4}>
             <Paper className={classes.paper}>xs=6 sm=3</Paper>

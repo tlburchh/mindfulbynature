@@ -14,8 +14,8 @@ const styles = theme => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
     boxShadow: 'none',
-    borderStyle: 'solid',
-    borderWidth: '2px',
+    // borderStyle: 'solid',
+    // borderWidth: '2px',
   },
 });
 
@@ -46,9 +46,21 @@ function About(props) {
           </Paper>
         </Grid>
         <Grid item xs={0} sm={3}>
+        <img className="tom" src={require ("../../images/tom.jpg")} alt="" ></img>
         
         </Grid>
         <Grid item xs={12} sm={9}>
+        <Paper className={classes.paper}><h2>About Tom</h2>
+          <p></p>
+          
+          </Paper>
+        </Grid>
+
+        <Grid item xs={0} sm={3}>
+
+        </Grid>
+        <Grid item xs={12} sm={9}>
+        
           <Paper className={classes.paper}><i>Look deep into nature, and you then will understand everything better.<br/><br/>
           — Albert Einstein</i></Paper>
         </Grid>
