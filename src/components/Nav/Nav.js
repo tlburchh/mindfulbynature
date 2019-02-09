@@ -16,9 +16,9 @@ class Nav extends React.Component {
         <div className="navbarContent">
     
           <Link to="/"><img src={require("../../images/mindfulbynature-black.png")} alt="Mindful by Nature" /></Link>
-          <Link to="/about">About</Link>
-          <Link to="/reiki">Reiki</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/about"><b>About</b></Link>
+          <Link to="/reiki"><b>Reiki</b></Link>
+          <Link to="/contact"><b>Contact</b></Link>
          
           {/* <a href="#">Link 2</a>
           <a href="#">Link 3</a> */}
@@ -30,3 +30,5 @@ class Nav extends React.Component {
 }
 
 export default Nav;
+
+

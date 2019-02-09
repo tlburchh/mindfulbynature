@@ -5,9 +5,17 @@
 
 }
 .title h1{
-  font-size: 60px;
+  font-size: 80px;
+  font-family: 'Merienda', cursive;
+}
+.title h2{
+  font-size: 35px;
+  font-family: 'Merienda', cursive;
 }
 .logo{
   width: 100%;
 
 }
+/* p {
+  line-height: 1.5;
+} */

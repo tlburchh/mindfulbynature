@@ -30,7 +30,7 @@ function About(props) {
             <img  src={require ("../../images/Lake2.jpg")} alt="" ></img>
           </div>
         </Grid>
-        <Grid item xs={0} sm={3}>
+        {/* <Grid item xs={0} sm={3}>
           <Paper className={classes.paper}>
           <h3>About Us</h3>
           </Paper>
@@ -44,14 +44,14 @@ function About(props) {
      We will give people various mindful techniques to quiet the mind so that they may reconnect with the world around them.  These techniques include but are not limited to guided meditation, walking meditation, sound healing and Reiki.</p> 
           
           </Paper>
-        </Grid>
+        </Grid> */}
         <Grid item xs={0} sm={3}>
         <img className="tom" src={require ("../../images/tom.jpg")} alt="" ></img>
         
         </Grid>
         <Grid item xs={12} sm={9}>
         <Paper className={classes.paper}><h2>About Tom</h2>
-          <p></p>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
           
           </Paper>
         </Grid>
@@ -63,6 +63,14 @@ function About(props) {
         
           <Paper className={classes.paper}><i>Look deep into nature, and you then will understand everything better.<br/><br/>
           — Albert Einstein</i></Paper>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+        <img className="tom" src={require ("../../images/mindLife.jpg")} alt="" ></img>
+        
+        </Grid>
+        <Grid item xs={12} sm={6}>
+        <img className="tom" src={require ("../../images/reikiCert.jpg")} alt="" ></img>
+        
         </Grid>
       </Grid>
     </div>
