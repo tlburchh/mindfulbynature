@@ -1,8 +1,9 @@
 .title {
   position: relative;
-  top:-65%;
+  top:-59%;
   text-align: center;
-
+  color: white;
+  text-shadow: -1px 0 rgba(26, 0, 173, 0.452), 0 1px rgba(26, 0, 173, 0.424), 1px 0 rgba(26, 0, 173, 0.315), 0 -1px rgba(26, 0, 173, 0.438)
 }
 .title h1{
   font-size: 80px;
