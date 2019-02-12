@@ -16,8 +16,8 @@
       color: theme.palette.text.secondary,
       lineHeight: '45px',
       boxShadow: 'none',
-      borderStyle: 'solid',
-      borderWidth: '2px',
+      // borderStyle: 'solid',
+      // borderWidth: '2px',
     },
     intro: {
       textAlign: 'center',
@@ -59,7 +59,7 @@
           </Grid>
           <Grid item xs={12}>
             <Paper className='colorShift'>
-              <br/><br/><br/>
+              <br/><br/><br/><br/>
             </Paper>
           </Grid>
           <Grid item xs={0} sm={3}>

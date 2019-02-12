@@ -21,7 +21,7 @@
   background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(106, 189, 209, 0.493), rgba(0, 0, 0, 0));
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 4s linear infinite;
+  animation: animate 5s linear infinite;
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
