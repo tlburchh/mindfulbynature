@@ -11,7 +11,7 @@ const styles = theme => ({
   },
   paper: {
     padding: theme.spacing.unit * 2,
-    textAlign: 'center',
+    textAlign: 'left',
     color: theme.palette.text.secondary,
     boxShadow: 'none',
     // borderStyle: 'solid',
@@ -50,7 +50,17 @@ function About(props) {
         </Grid>
         <Grid item xs={12} sm={9}>
         <Paper className={classes.paper}><h2>About Tom</h2>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <p>I feel like I am just a regular guy.<br/><br/>
+          I never had a guru, traveled to Coachella or Burning Man or found myself huddled in a corner after drinking Ayahuasca. (Geez, maybe I am missing out)
+          <br/><br/>
+          I just happened to learn the benefits of mindfulness, meditation and reiki healing from my own life experiences. I want to share that with the world and help those that are open and receptive to learning and healing themselves.
+          <br/><br/>
+          My background is in Environmental Science and Education and I have a life long love of the outdoors. I learned a lot about myself from my time in nature and learned many of the practices that I use today in that space. (I mean, it’s called Mindful by Nature, right 😁 )
+          <br/><br/>
+          I have practices mindfulness and meditation for nearly a decade and have received my Mindfulness Coaching Certification and am also a Reiki Master with plans to take the step to Reiki Master Teacher in the near future.
+          <br/><br/>
+          My calling is to help people heal themselves, plain and simple….and sometimes complex
+          </p>
           
           </Paper>
         </Grid>
