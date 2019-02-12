@@ -30,7 +30,24 @@ function Contact(props) {
 
         </Grid>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>contact info</Paper>
+          <Paper className={classes.paper}>
+          <React.Fragment>
+          <h3>Get in Touch!</h3>
+          <form method="POST" action="https://formspree.io/mindfulbynature@gmail.com">
+              <div className="form-group" >
+                <label for="exampleInputEmail1" ></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+                <small id="emailHelp" class="form-text text-muted" >We'll never share your email with anyone else.</small>
+              </div>
+              <div className="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter message here."></textarea>
+              </div>
+              <div className="form-group">
+                  <button type="submit" class="btn badge-pill">Submit</button>
+              </div>
+            </form>
+          </React.Fragment>
+          </Paper>
         </Grid>
 
       </Grid>
