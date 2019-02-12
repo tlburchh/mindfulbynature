@@ -25,7 +25,7 @@ function Contact(props) {
   return (
     <div className={classes.root}>
       <Grid container spacing={24}>
-        <Grid style={{maxHeight:'200px', overflow:'hidden'}} item xs={12}>
+        <Grid style={{maxHeight:'350px', overflow:'hidden'}} item xs={12}>
            <img style={{width: '100%', height: 'auto'}}  src={require ("../../images/Sunrise.jpg")} alt="" ></img>
 
         </Grid>
