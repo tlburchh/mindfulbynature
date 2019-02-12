@@ -5,6 +5,7 @@
   import Grid from '@material-ui/core/Grid';
 // import { Typography } from '@material-ui/core';
   import './home.css'
+// import { Typography } from '@material-ui/core';
   const styles = theme => ({
     root: {
       flexGrow: 1,
@@ -24,9 +25,8 @@
       fontSize: '25px',
       
     },
-    img: {
-      height: '200px'
-    }
+  
+    
   });
   
   function Home(props) {
@@ -35,14 +35,19 @@
     return (
       <div className={classes.root}>
         <Grid container spacing={24}>
-          <Grid item xs={12} >
-            <img src={require ("../../images/SunOnLake.jpg")} alt="" >    
+          <Grid  item xs={12} >
+            <img style={{width: '100%', height: 'auto'}}  src={require ("../../images/SunOnLake.jpg")} alt="" >    
             </img>
-            <div className="title">
-            <h1><b>Mindfulness</b></h1>
-            <h2><b>It Is Our Nature</b></h2>
-             </div>
           </Grid>
+          <Grid item xs={12}>
+            <Paper className={classes.paper}>
+              {/* <Typography>Mindfulness<br/>It is our Nature</Typography> */}
+            </Paper>
+          </Grid>
+            {/* <div className="title">
+                <h1><b>Mindfulness</b></h1>
+                <h2><b>It Is Our Nature</b></h2>
+            </div> */}
           <Grid item xs={12} className={classes.intro}>
              <h1>We strive to reconnect people with nature and with themselves</h1><br></br>
               <p>We at Mindful by Nature believe that mindfulness is part of human nature. The way we live our lives in today's world has separated us from that innate ability to stay in that space of mindfulness and the busyness of everyday life in our fast-paced society distracts us from our mindful nature. The goal of Mindful by Nature is to help people find that space again by guiding people in mindfulness techniques, assisting in self healing, and bringing people back to nature. With these skills it is our hope that people will see that they can have a more peaceful and fulfilling life by taking the time to respect and reconnect with themselves and with nature. </p>

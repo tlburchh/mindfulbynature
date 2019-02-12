@@ -1,22 +1,28 @@
-.title {
+ /* .title {
+  z-index: 100;
   position: relative;
   top:-59%;
   text-align: center;
-  color: white;
-  text-shadow: -1px 0 rgba(26, 0, 173, 0.452), 0 1px rgba(26, 0, 173, 0.424), 1px 0 rgba(26, 0, 173, 0.315), 0 -1px rgba(26, 0, 173, 0.438)
-}
-.title h1{
+  color: black;
+  text-shadow: -1px 0 rgba(26, 0, 173, 0.452), 0 1px rgba(26, 0, 173, 0.424), 1px 0 rgba(26, 0, 173, 0.315), 0 -1px rgba(26, 0, 173, 0.438) 
+}  */
+/* .title h1{
   font-size: 80px;
   font-family: 'Merienda', cursive;
 }
 .title h2{
   font-size: 35px;
   font-family: 'Merienda', cursive;
-}
+}  */
 .logo{
   width: 100%;
 
 }
-/* p {
-  line-height: 1.5;
-} */
+
+
+@media only screen and (max-width: 888) {
+  .title {
+    /* opacity: 0; */
+    color: green,
+  }
+}
