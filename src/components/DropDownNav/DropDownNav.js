@@ -40,7 +40,9 @@ class SimpleMenu extends React.Component {
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
         >
+          <MenuItem onClick={this.handleClose} component={Link} to="/home">Home</MenuItem>
           <MenuItem onClick={this.handleClose} component={Link} to="/about">About</MenuItem>
+          <MenuItem onClick={this.handleClose} component={Link} to="/services">Services</MenuItem>
           <MenuItem onClick={this.handleClose} component={Link} to="/reiki">Reiki</MenuItem>
           <MenuItem onClick={this.handleClose} component={Link} to="/contact">Contact</MenuItem>
         </Menu>

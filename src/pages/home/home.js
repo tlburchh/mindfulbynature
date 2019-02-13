@@ -3,9 +3,9 @@
   import { withStyles } from '@material-ui/core/styles';
   import Paper from '@material-ui/core/Paper';
   import Grid from '@material-ui/core/Grid';
-// import { Typography } from '@material-ui/core';
+  import { Link } from 'react-router-dom';
   import './home.css'
-// import { Typography } from '@material-ui/core';
+
   const styles = theme => ({
     root: {
       flexGrow: 1,
@@ -79,7 +79,9 @@
           </Paper>
         </Grid>
           <Grid item xs={12} sm={4}>
-            <Paper className={classes.paper}>this is where I am going to put cool stuff</Paper>
+            <Paper className={classes.paper}><i>“Mindfulness is simply being aware of what is happening right now without wishing it were different; enjoying the pleasant without holding on when it changes (which it will); being with the unpleasant without fearing it will always be this way (which it won’t).”
+            <br/>
+             ~James Baraz</i></Paper>
           </Grid>
           <Grid item xs={12} sm={4}>
             <div >
@@ -89,7 +91,10 @@
 
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Paper className={classes.paper}>Contact Us</Paper>
+            <Paper className={classes.paper}>
+            <br/> <br/> <br/>
+            <Link to='/contact'><h3><i>Contact Us!</i></h3></Link>
+            </Paper>
           </Grid>
         </Grid>
       </div>

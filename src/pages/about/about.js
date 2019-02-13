@@ -57,9 +57,9 @@ function About(props) {
           <br/><br/>
           My background is in Environmental Science and Education and I have a life long love of the outdoors. I learned a lot about myself from my time in nature and learned many of the practices that I use today in that space. (I mean, it’s called Mindful by Nature, right 😁 )
           <br/><br/>
-          I have practices mindfulness and meditation for nearly a decade and have received my Mindfulness Coaching Certification and am also a Reiki Master with plans to take the step to Reiki Master Teacher in the near future.
+          I have practiced mindfulness and meditation for nearly a decade and have received my Mindfulness Coaching Certification and am also a Reiki Master with plans to take the step to Reiki Master Teacher in the near future.
           <br/><br/>
-          My calling is to help people heal themselves, plain and simple….and sometimes complex
+          My calling is to help people heal themselves, plain and simple….and sometimes it's complex
           </p>
           
           </Paper>

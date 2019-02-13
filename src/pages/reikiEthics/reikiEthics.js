@@ -29,7 +29,7 @@ function Reiki(props) {
             <img style={{width: '100%', height: 'auto'}}  src={require ("../../images/sky.jpg")} alt="" ></img>           
         </Grid>
         <Grid item xs={0} sm={3}>
-          <Paper className={classes.paper}>Code of Ethics</Paper>
+          <Paper className={classes.paper}>Reiki Code of Ethics</Paper>
         </Grid>
         <Grid item xs={12} sm={9}>
           <Paper className={classes.paper}>

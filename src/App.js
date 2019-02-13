@@ -5,7 +5,10 @@ import Contact from './pages/contact/contact';
 import Reiki from './pages/reiki/reiki';
 import Home from './pages/home/home'
 import Ethics from './pages/reikiEthics/reikiEthics'
+import MbNEthics from './pages/mbnEthics/mbnEthics'
+import Services from './pages/services/services'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 class App extends Component {
 
@@ -32,7 +35,11 @@ class App extends Component {
                 <Route exact path="/reiki" component={Reiki} />
                 <Route exact path="/ethics" component={Ethics} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/services" component={Services} />
+                <Route exact path="/mbnethics" component={MbNEthics} />
+
               </Switch>
+              <Footer/>
           </div>
         </Router>  
       </React.Fragment>
