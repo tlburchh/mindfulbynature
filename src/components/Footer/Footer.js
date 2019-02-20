@@ -7,7 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = theme => ({
     footerStyle : {
     backgroundColor: "#6abdd1",
-    opacity: '0.2',
+    opacity: '0.4',
     fontSize: "15px",
     color: "white",
     borderTop: "1px solid #E7E7E7",
