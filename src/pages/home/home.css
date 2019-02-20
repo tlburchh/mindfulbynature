@@ -17,7 +17,8 @@
 
 
 .colorShift{
-  
+  height: 15px;
+  margin: 20px 0px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(106, 189, 209, 0.493), rgba(0, 0, 0, 0));
   background-repeat: no-repeat;
   background-size: 80%;

@@ -51,7 +51,7 @@
           <Grid item xs={12} className={classes.intro}>
              <h1>We strive to reconnect people with nature and with themselves</h1>
              <Paper className='colorShift'>
-              <br/><br/>
+           <br/>
             </Paper>
 
               <p>We at Mindful by Nature believe that mindfulness is part of human nature. The way we live our lives in today's world has separated us from that innate ability to stay in that space of mindfulness and the busyness of everyday life in our fast-paced society distracts us from our mindful nature. The goal of Mindful by Nature is to help people find that space again by guiding people in mindfulness techniques, assisting in self healing, and bringing people back to nature. With these skills it is our hope that people will see that they can have a more peaceful and fulfilling life by taking the time to respect and reconnect with themselves and with nature. </p>
@@ -59,10 +59,10 @@
           </Grid>
           <Grid item xs={12}>
             <Paper className='colorShift'>
-              <br/><br/><br/><br/>
+              <br/>
             </Paper>
           </Grid>
-          <Grid item xs={0} sm={3}>
+          <Grid item sm={3}>
           <Paper className={classes.paper}>
           <h3>Our Mission</h3>
           </Paper>
@@ -80,7 +80,7 @@
         </Grid>
           <Grid item xs={12} sm={4}>
             <Paper className={classes.paper}><i>“Mindfulness is simply being aware of what is happening right now without wishing it were different; enjoying the pleasant without holding on when it changes (which it will); being with the unpleasant without fearing it will always be this way (which it won’t).”
-            <br/>
+            <br/><br/>
              ~James Baraz</i></Paper>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -92,8 +92,8 @@
           </Grid>
           <Grid item xs={12} sm={4}>
             <Paper className={classes.paper}>
-            <br/> <br/> <br/>
-            <Link to='/contact'><h3><i>Contact Us!</i></h3></Link>
+            <br></br>
+            <Link to='/contact'><h1><i>Contact Us!</i></h1></Link>
             </Paper>
           </Grid>
         </Grid>

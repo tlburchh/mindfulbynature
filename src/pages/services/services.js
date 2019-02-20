@@ -30,27 +30,27 @@ function Reiki(props) {
           >
            <img style={{width: '100%', height: 'auto'}} src={require ("../../images/sky.jpg")} alt="" ></img>
         </Grid>
-        <Grid item xs={0} sm={3}>
+        <Grid item  sm={3}>
         <Paper className={classes.paper}>
           <h3>Our Services</h3>
           </Paper>
         </Grid>
         <Grid item xs={12} sm={9}>
           <Paper className={classes.paper} id= "description">
-          <h3>One-on-one Sessions - Face to face or online</h3>
+          <h3>One-on-one .Sessions - Face to face or online</h3>
           <ul>
             <li>Mindfulness Coaching (30 minute, 60 minute)</li>
             <li>Reiki healing (30 minute, 60 minute)</li>
           </ul>
           <br/>
-          <h3>Group Sessions</h3>
+          <h3>Group .Sessions</h3>
           <ul>
             <li>Mindfulness Coaching (30 minute, 60 minute)</li> 
             <li>Mindful nature excursions (time varies)</li>
             <li>Reiki classes and attunements (~6-8 hours)</li>
           </ul>
           <br/>
-          <h3>Corporate and School Programs</h3>
+          <h3>Corporate and .School Programs</h3>
 	        <h5>Packages may include the following:</h5>
           <ul>
              <li>An introduction to mindfulness practices (60 minutes)</li> 
@@ -61,7 +61,7 @@ function Reiki(props) {
           
           </Paper>
         </Grid>
-        <Grid item xs={0} sm={3}>
+        <Grid item sm={3}>
         <Paper className={classes.paper}>
           <h3>Please Note</h3>
           </Paper>
