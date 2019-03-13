@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { Link } from 'react-router-dom';
-
+import './DropDownNav.css'
 import MenuIcon from '@material-ui/icons/Menu';
  
 class SimpleMenu extends React.Component {
@@ -40,11 +40,17 @@ class SimpleMenu extends React.Component {
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
         >
-          <MenuItem onClick={this.handleClose} component={Link} to="/home">Home</MenuItem>
-          <MenuItem onClick={this.handleClose} component={Link} to="/about">About</MenuItem>
-          <MenuItem onClick={this.handleClose} component={Link} to="/services">Services</MenuItem>
-          <MenuItem onClick={this.handleClose} component={Link} to="/reiki">Reiki</MenuItem>
-          <MenuItem onClick={this.handleClose} component={Link} to="/contact">Contact</MenuItem>
+          <MenuItem className="menuItem" onClick={this.handleClose} component={Link} to="/home">Home</MenuItem>
+          <MenuItem className="menuItem" onClick={this.handleClose} component={Link} to="/about">About</MenuItem>
+          <MenuItem className="menuItem" onClick={this.handleClose} component={Link} to="/services">Services</MenuItem>
+          <MenuItem className="menuItem" onClick={this.handleClose} component={Link} to="/reiki">Reiki</MenuItem>
+          {/* <MenuItem onClick={this.handleClose} component={Link} to="/contact">Contact</MenuItem>
+           */}
+             {/* <!-- Start Square Appointments Embed code -->  */}
+             <Button id="submitButtonMain" target="_top" 
+           
+           href="https://squareup.com/appointments/book/A4SW79J1QVXQ6/mindful-by-nature-durham-nc" rel="nofollow"><b>Schedule a Session</b></Button> 
+           {/* <!-- End Square Appointments Embed code -->   */}
         </Menu>
       </div>
     );

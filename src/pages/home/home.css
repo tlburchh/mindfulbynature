@@ -51,3 +51,22 @@
     color: green,
   }
 }
+
+#submitButtonMain{
+  background-color: rgba(246, 235, 72, 0.774); 
+  color: rgb(14, 11, 11); 
+  height: 60px; 
+  text-transform: uppercase; 
+  font-family: 'Merienda', cursive;
+  letter-spacing: 1px; 
+  line-height: 50px; 
+  padding: 0 50px; 
+  border-radius: 3px; 
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(112, 112, 0);
+  font-weight: 500; 
+  font-size: 20px; 
+  cursor: pointer; 
+  display: inline-block;
+}

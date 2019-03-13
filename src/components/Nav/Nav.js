@@ -1,8 +1,9 @@
 import React from 'react';
-// import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom'
 import DropDownNav from '../DropDownNav'
 import './Nav.css'
+// import { orange } from '@material-ui/core/colors';
 class Nav extends React.Component {
   state = {
   
@@ -23,7 +24,12 @@ class Nav extends React.Component {
           <Link to="/about"><b>About</b></Link>
           <Link to='/services'><b>Services</b></Link>
           <Link to="/reiki"><b>Reiki</b></Link>
-          <Link to="/contact"><b>Contact</b></Link>
+          {/* <Link to="/contact"><b>Contact</b></Link> */}
+          {/* <!-- Start Square Appointments Embed code -->  */}
+          <Button id="submitButton" target="_top" 
+           
+          href="https://squareup.com/appointments/book/A4SW79J1QVXQ6/mindful-by-nature-durham-nc" rel="nofollow"><b>Schedule a Session</b></Button> 
+          {/* <!-- End Square Appointments Embed code -->   */}
         </div>
         <div className="dropdown">
         <DropDownNav />

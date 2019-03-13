@@ -3,7 +3,8 @@
   import { withStyles } from '@material-ui/core/styles';
   import Paper from '@material-ui/core/Paper';
   import Grid from '@material-ui/core/Grid';
-  import { Link } from 'react-router-dom';
+  import Button from '@material-ui/core/Button';
+  // import { Link } from 'react-router-dom';
   import './home.css'
 
   const styles = theme => ({
@@ -50,6 +51,11 @@
             </div> */}
           <Grid item xs={12} className={classes.intro}>
              <h1>We strive to reconnect people with nature and with themselves</h1>
+              {/* <!-- Start Square Appointments Embed code -->  */}
+           <Button id="submitButtonMain" target="_top" 
+           
+           href="https://squareup.com/appointments/book/A4SW79J1QVXQ6/mindful-by-nature-durham-nc" rel="nofollow"><b>Schedule a Session</b></Button> 
+           {/* <!-- End Square Appointments Embed code -->   */}
              <Paper className='colorShift'>
            <br/>
             </Paper>
@@ -93,7 +99,12 @@
           <Grid item xs={12} sm={4}>
             <Paper className={classes.paper}>
             <br></br>
-            <Link to='/contact'><h1><i>Contact Us!</i></h1></Link>
+            {/* <Link to='/contact'><h1><i>Contact Us!</i></h1></Link> */}
+              {/* <!-- Start Square Appointments Embed code -->  */}
+           <Button id="submitButtonMain" target="_top" 
+           
+           href="https://squareup.com/appointments/book/A4SW79J1QVXQ6/mindful-by-nature-durham-nc" rel="nofollow"><b>Schedule a Session</b></Button> 
+           {/* <!-- End Square Appointments Embed code -->   */}
             </Paper>
           </Grid>
         </Grid>
