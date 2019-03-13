@@ -47,9 +47,9 @@ class SimpleMenu extends React.Component {
           {/* <MenuItem onClick={this.handleClose} component={Link} to="/contact">Contact</MenuItem>
            */}
              {/* <!-- Start Square Appointments Embed code -->  */}
-             <Button id="submitButtonMain" target="_top" 
+             <Button id="menuItem" target="_top" 
            
-           href="https://squareup.com/appointments/book/A4SW79J1QVXQ6/mindful-by-nature-durham-nc" rel="nofollow"><b>Schedule a Session</b></Button> 
+           href="https://squareup.com/appointments/book/A4SW79J1QVXQ6/mindful-by-nature-durham-nc" rel="nofollow"><b>Appointments</b></Button> 
            {/* <!-- End Square Appointments Embed code -->   */}
         </Menu>
       </div>
